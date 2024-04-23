@@ -1,0 +1,64 @@
+<!--
+// v0 by Vercel.
+// https://v0.dev/t/cUQibMhnzSy
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Supertoys</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+  }
+  .text {
+    position: relative;
+    font-size: 4em;
+    z-index: 1;
+  }
+</style>
+<style>h1, h2, h3, h4, h5, h6, p{ font-family: 'Judson', serif; --font-serif: 'Judson'; color:white}
+</style>
+<style>body { font-family: 'Libre Franklin', sans-serif; --font-sans: 'Libre Franklin'; }
+</style>
+</head>
+<body>
+
+    <div class="relative flex flex-col items-center justify-center h-screen bg-gray-900">
+      <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10">
+        <h2 class="text-3xl font-bold text-gray-200 mb-4">Supertoys</h2>
+        <p class="text-gray-400 text-center">Discover the latest and greatest toys for all ages.</p>
+      </div>
+      <img
+        src="./Teddy.jpeg"
+        alt="Teddy"
+        width="500"
+        height="500"
+        class="mb-6 rounded-lg shadow-lg relative z-0 hover:scale-105 transition-transform duration-300"
+        style="aspect-ratio: 500 / 500; object-fit: cover;"
+      />
+    </div>
+</body>
+</html>
